@@ -1,0 +1,3 @@
+#bazel quits with an error if I don't set this; not sure why
+startup --host_jvm_args=-Dbazel.DigestFunction=SHA1
+build --hazelcast_node=127.0.0.1:5701 --spawn_strategy=remote
